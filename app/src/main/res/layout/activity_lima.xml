@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_lima">
+
+    <TextView
+        android:id="@+id/dude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamu Berada Di Activity Terakhir"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/dang"
+        android:layout_below="@+id/dude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekan Tombol Di Bawah Untuk Kembali Ke Awal"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/awalTerakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dang"
+        android:layout_margin="40dp"
+        android:text="Kembali Ke Awal"/>
+
+</RelativeLayout>
